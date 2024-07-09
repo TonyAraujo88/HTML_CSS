@@ -14,7 +14,7 @@ const loop = setInterval(() => {
     const pipePosition = pipe.offsetLeft;
     const dinoPosition = +window.getComputedStyle(dino).bottom.replace('px','');
 
-    console.log(dinoPosition);
+    console.log(dinoPosition);  
     
     if (pipePosition <= 120 && pipePosition > 0 && dinoPosition < 65) {
 
