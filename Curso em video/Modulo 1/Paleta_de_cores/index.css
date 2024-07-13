@@ -9,6 +9,17 @@ ul {
     list-style-type: none;
 }
 a {
+    position: center;
     color: white;
     text-decoration: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-height:5vh;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 1.5em;
+    font-weight: bold;    
+    border: 2px solid white;
+    padding: 10px 30px;
 }
